@@ -1,0 +1,25 @@
+.checkboxlist{
+    border: 1px solid black;
+   text-align: center; 
+   /* width: fit-content; */
+   padding-inline: 50px;
+   padding-block: 20px;
+   margin: auto;
+   max-width: 30%;
+   overflow-wrap: break-word;
+}
+
+.chooseallfiles{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.submitbtn{
+    border: none;
+    margin-block-start: 30px;
+    padding: 5px;
+    padding-inline: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}

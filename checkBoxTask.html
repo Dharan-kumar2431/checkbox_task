@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkBoxTask.css">
+    <script src="checkBoxTask.js"></script>
+    <title>Checkbox Task</title>
+</head>
+
+<body>
+    <div class="checkboxlist">
+        <h1>List of Files</h1>
+        <form id="formData">
+            <div class="chooseallfiles">
+                <input type="checkbox" name="allfiles" id="allfiles" onchange="handleAllFilesChange()">
+                <label>Choose all files</label>
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" name="Fiel 1" id="fiel1" onchange="handleFileChange()">
+                    <label>File 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Fiel 2" id="fiel2" onchange="handleFileChange()">
+                    <label>File 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Fiel 3" id="fiel3" onchange="handleFileChange()">
+                    <label>File 3</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Fiel 4" id="fiel4" onchange="handleFileChange()">
+                    <label>File 4</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Fiel 5" id="fiel5" onchange="handleFileChange()">
+                    <label>File 5</label>
+                </div>
+            </div>
+
+            <div>
+                <button class="submitbtn" onclick="handleChoosedFiles(event)">Submit</button>
+            </div>
+
+            <div>
+                <p id="listitems"></p>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
